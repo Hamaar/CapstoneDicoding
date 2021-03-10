@@ -30,6 +30,9 @@ buildscript {
     ext.nav_version = '2.3.2'
 
 
+    ext.lottie_version = "3.4.1"
+
+    ext.shimmer_version = "0.5.0"
 
     repositories {
         google()
