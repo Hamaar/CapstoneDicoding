@@ -47,7 +47,7 @@ class FavoriteFragment : Fragment() {
 
             favoriteViewModel.favoriteTourism.observe(viewLifecycleOwner, { dataTourism ->
                 tourismAdapter.setData(dataTourism)
-                binding?.viewEmpty?.root.visibility =
+                binding?.viewEmpty?.root?.visibility =
                     if (dataTourism.isNotEmpty()) View.GONE else View.VISIBLE
 
             })
