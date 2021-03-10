@@ -17,7 +17,6 @@ class FavoriteFragment : Fragment() {
 
     private val favoriteViewModel: FavoriteViewModel by viewModel()
 
-
     private var _binding: FragmentFavoriteBinding? = null
     private val binding get() = _binding
 

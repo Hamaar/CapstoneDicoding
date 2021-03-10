@@ -34,6 +34,11 @@ buildscript {
 
     ext.shimmer_version = "0.5.0"
 
+    ext.leact_version = "2.4"
+
+    ext.sql_chiper_version = "4.4.0"
+    ext.sqlite_version = "2.1.0"
+
     repositories {
         google()
         jcenter()

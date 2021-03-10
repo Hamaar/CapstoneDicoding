@@ -26,4 +26,6 @@ dependencies {
     implementation "com.airbnb.android:lottie:$lottie_version"
     implementation "com.facebook.shimmer:shimmer:$shimmer_version"
 
+    debugImplementation "com.squareup.leakcanary:leakcanary-android:$leact_version"
+
 }
