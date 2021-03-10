@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Movie Capstone</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="movie">Movie</string>
+    <string name="title">Title</string>
+    <string name="date">Date Release : %s</string>
+    <string name="detail">Detail</string>
+    <string name="release_date">Release date</string>
+    <string name="description">Description</string>
+    <string name="text_description">Text description</string>
+    <string name="fav">Favorite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

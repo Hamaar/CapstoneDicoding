@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/action_movie">
+
+    <fragment
+        android:id="@+id/action_movie"
+        android:name="com.hamaar.capstonedicoding.movie.MovieFragment"
+        android:label="Movie Fragment"
+        tools:layout="@layout/fragment_movie" />
+    <fragment
+        android:id="@+id/action_fav"
+        android:name="com.hamaar.capstonedicoding.favorite.FavoriteFragment"
+        android:label="Favorite Fragment"
+        tools:layout="@layout/fragment_favorite" />
+</navigation>
