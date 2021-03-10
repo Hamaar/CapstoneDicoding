@@ -78,27 +78,7 @@ public *;
 *** rewind();
 }
 
-# Uncomment for DexGuard only
-#-keepresourcexmlelements manifest/application/meta-data@value=GlideModule
-
-
-##---------------Begin: proguard configuration for RxJava ----------
-# Uncomment if you use RxJava
-#-dontwarn java.util.concurrent.Flow*
-
 # JetPack Navigation
 -keepnames class androidx.navigation.fragment.NavHostFragment
 -keepnames class com.hamaar.capstonedicoding.favorite.FavoriteFragment
 -keep class androidx.fragment.app.Fragment { *; }
-
--keepnames class androidx.navigation.fragment.NavHostFragment
-
-
-#-keep class * extends androidx.fragment.app.Fragment{}
-#-keep public class * extends androidx.fragment.app.Fragment
-#-keep class * extends androidx.room.RoomDatabase
-#-dontwarn androidx.room.paging**
-#-keepnames class * extends kotlinx.android.parcel.Parcelize
-#-keepclassmembers class **.R$* {
-#    public static <fields>;
-#}
